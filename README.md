@@ -8,7 +8,7 @@
 
 ## 项目结构
 
-`
+```
 chapter4-image-classification-retrieval/
  README.md                    # 项目说明文档
  requirements.txt             # Python依赖包
@@ -27,24 +27,24 @@ chapter4-image-classification-retrieval/
  notebooks/                  # Jupyter笔记本
      01_resnet_classifier.ipynb
      02_clip_retrieval.ipynb
-`
+```
 
 ## 快速开始
 
 ### 1. 安装依赖
-`ash
+```bash
 pip install -r requirements.txt
-`
+```
 
 ### 2. 准备数据
-- 在 data/positive/ 中放入正类图像
-- 在 data/negative/ 中放入负类图像
-- 在 data/query/ 中放入查询图像
+- 在 `data/positive/` 中放入正类图像
+- 在 `data/negative/` 中放入负类图像
+- 在 `data/query/` 中放入查询图像
 
 ### 3. 运行Jupyter笔记本
-`ash
+```bash
 jupyter notebook notebooks/
-`
+```
 
 ## 功能详情
 
