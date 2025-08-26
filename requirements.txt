@@ -1,8 +1,0 @@
-torch
-torchvision
-open-clip-torch
-Pillow
-numpy
-matplotlib
-scikit-learn
-jupyter
